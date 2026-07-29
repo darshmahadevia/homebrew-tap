@@ -5,21 +5,21 @@ class Limitr < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/darshmahadevia/limitr/releases/download/v0.1.0/limitr-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "560edf6071cf40011e78a7e1ca11f713f2ae36afe8ab9a2eb1a9e121353b4426"
+      url "https://github.com/darshmahadevia/limitr/releases/download/v0.1.1/limitr-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "2dc8de78d5f77698bdb063c5ae0758c3ccd95f740d9d3a2104fc94cda0ae5c45"
     else
-      url "https://github.com/darshmahadevia/limitr/releases/download/v0.1.0/limitr-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "15740cbc0229f6548cd7f6b897f4f6c8544ef27629ba8878ccf1927b9c694500"
+      url "https://github.com/darshmahadevia/limitr/releases/download/v0.1.1/limitr-v0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "e63b0a66837d008a69c49d53243aeb6d0535e378c6118ecce1fd33eb11bc3095"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/darshmahadevia/limitr/releases/download/v0.1.0/limitr-v0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "8ac7609adb91e03335325924afecb407a8509fecb23d5f70df0a7aa7a8fca41c"
+      url "https://github.com/darshmahadevia/limitr/releases/download/v0.1.1/limitr-v0.1.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "59687945d8ee65b168fff4a2a68a829c27614eacbd992ba5b04baadd8a6d5a39"
     else
-      url "https://github.com/darshmahadevia/limitr/releases/download/v0.1.0/limitr-v0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "22af5fbbeca1de34be39c4cddde406b76149084dce5666555d58bdce6bfc2644"
+      url "https://github.com/darshmahadevia/limitr/releases/download/v0.1.1/limitr-v0.1.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "a982f51f1e5b2a5f41787084781166ba65c1d4a7bb2ca44881dd8a2cdb351802"
     end
   end
 
