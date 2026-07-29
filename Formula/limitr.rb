@@ -1,7 +1,6 @@
 class Limitr < Formula
   desc "Local-first view of current Codex rate limits"
   homepage "https://github.com/darshmahadevia/limitr"
-  version "0.1.0"
   license "MIT"
 
   on_macos do
